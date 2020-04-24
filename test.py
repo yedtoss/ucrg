@@ -8,7 +8,6 @@ import gambit
 if __name__ == "__main__":
     horizon = 100000
     num_trials = 50
-    num_trials = 5
 
     # Example
     matrix_a_example = np.array([[4. / 5, 1. / 10], [9. / 5, 3. / 10]]) / 2.
