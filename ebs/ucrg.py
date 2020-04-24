@@ -5,7 +5,7 @@ import numpy as np
 import itertools
 import gambit
 
-from OptimisticEBS import utility
+from . import utility
 
 
 class UCRG:

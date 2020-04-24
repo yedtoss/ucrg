@@ -1,13 +1,7 @@
 """
 This run all the experiments
 """
-from OptimisticEBS import ucrg
-from OptimisticEBS import environment
-from OptimisticEBS import simulator
-from OptimisticEBS import utility
-from OptimisticEBS import explore_then_commit
-from OptimisticEBS import plot
-
+from ebs import ucrg, environment, explore_then_commit, utility, simulator, plot
 import numpy as np
 import gambit
 

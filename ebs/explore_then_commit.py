@@ -1,7 +1,7 @@
 """
 This module implements explore then commit for solving EBS
 """
-from OptimisticEBS import utility
+from . import utility
 import numpy as np
 import itertools
 import gambit
